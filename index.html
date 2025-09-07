@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bharat - Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Bharat's Portfolio</div>
+        <div class="menu">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home" class="firstSection">
+      <div class="leftSection">
+        <h1>Hi, I'm <span class="purple">Bharat</span></h1>
+        <h2>A passionate <span id="element"></span></h2>
+        <div class="btn-container">
+          <a href="Duabi_Resume.pdf" download class="btn">Download CV</a>
+          <a href="#projects" class="btn">View Projects</a>
+        </div>
+      </div>
+      <div class="rightSection">
+        <img src="icon.png" alt="Profile Image" />
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate developer who loves building creative and functional
+        web solutions. Skilled in
+        <strong>Frontend, Backend</strong>, I aim to deliver high-quality
+        projects with modern technology.
+      </p>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2>My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">React</div>
+        <div class="skill-card">C# (.NET)</div>
+        <div class="skill-card">SQL</div>
+        <div class="skill-card">MongoDB</div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>
+            A fully responsive portfolio built using HTML, CSS, and JavaScript.
+          </p>
+        </div>
+        <div class="project-card">
+          <h3>CRUD operations project using Reactjs</h3>
+          <p>
+            A form that helps you to create a new student , edit details of
+            particular student and delete.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <p>
+        Email:
+        <a href="mailto:bharatgoudar12@gmail.com">bharatgoudar12@gmail.com</a>
+      </p>
+      <p>Phone : +971 562349520 (Dubai)</p>
+      <p>Phone : +91 9019708969 (India)</p>
+    </section>
+
+    <footer>
+      <p>© 2025 Bharat | All Rights Reserved</p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Full Stack Enthusiast"],
+        typeSpeed: 50,
+        backSpeed: 30,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
